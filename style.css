@@ -1,0 +1,21 @@
+body {
+    background-color: #b9c7da;
+}
+#header {
+    text-align: center;
+    size: 30px;
+    margin-bottom: 10px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #b9c7da;
+    color: #3f3f3f;
+    line-height: 10px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
