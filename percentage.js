@@ -6,11 +6,14 @@ function displayTime() {
     const minseconds = now.getMilliseconds().toString().padStart(3,"0");
     const timeString = `${hours}:${minutes}:${seconds}.${minseconds}`;
     const years = now.getFullYear().toString();
-    const months = now.getMonth().toString();
-    const days = now.getDay().toString();
+    const months = now.getMonth().toString().padStart(2,"0");
+    const days = now.getDay().toString().padStart(2,"0");
     const dayString = `${years}/${months}/${days}`
     document.getElementById("time").textContent = timeString;
     document.getElementById("day").textContent = dayString;
+    const unixTime = Date.now()
+    const unixStr = `UNIX:${unixTime}`
+    document.getElementById("unix").textContent = unixStr;
 }
 
 setInterval(displayTime, 1);
