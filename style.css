@@ -27,7 +27,7 @@ h1 {
     align-items: center;
     background-color:#e0e0e0;
     padding: 24px 32px;
-    border-radius: 50px;
+    border-radius: 16px;
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
     width: 70%;
